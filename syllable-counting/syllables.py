@@ -20,8 +20,7 @@ def syllables(s):
     # what does the intermediat result, only_vowels, look like?
     return len(only_vowels.split())
 
-# how could you split this function up better so it's not mixing fileIO and
-# calculation logic?
+# how could you split this function up better so it's not mixing fileIO and program logic?
 # It currently requires a file in order to test its functionality.
 # Wouldn't it be nice to just be able to pass it data during an interactive session?
 def poem_syllables_per_line(filename):
