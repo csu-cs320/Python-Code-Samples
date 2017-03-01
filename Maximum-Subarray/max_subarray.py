@@ -60,6 +60,10 @@ def max_profit_buy_sell(daily_prices):
 
 test_prices = [100, 113, 110, 85, 105, 102, 86, 63, 81, 101, 94, 106, 101, 79, 94, 90, 97]
 
+# You can see which one is faster by running something like:
+# time(max_profit_buy_sell(test_prices))
+# time(max_profit_buy_sell_brute(test_prices))
+
 test_prices_100 = [14, -32, -37, -1, -40, -14, -39, -30, -39, -28, -28, 39, 7, -28, 27, -45, 44, 27, -44, 26, -41, -24,
                    47, -6, 39, 46, -28, -45, 20, -39, 32, -48, 19, -6, 46, -7, 45, 18, -13, 12, -33, 4, -48, -28, 27,
                    23, 43, 18, 28, -43, 45, -11, 41, 44, 49, 18, 44, -18, -42, -36, 10, -11, -40, 37, -44, 44, 11, 1,
